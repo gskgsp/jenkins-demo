@@ -10,7 +10,9 @@ pipeline {
 		stage('GSK2') {
 			steps {
 				echo 'it is GSK2'
+				echo 'it is testing'
 			}
 		}
+		
 	}
 }
