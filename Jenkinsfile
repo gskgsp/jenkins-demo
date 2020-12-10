@@ -9,7 +9,7 @@ pipeline {
 		}
 		stage('GSK2') {
 			steps {
-			    git url: 'https://github.com/cyrille-leclerc/multi-module-maven-project'
+			    git url: 'https://github.com/jenkins-docs/simple-java-maven-app.git'
 			    withMaven {
 			      sh "mvn clean"
 			      sh "mvn install"
