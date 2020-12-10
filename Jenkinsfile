@@ -11,8 +11,8 @@ pipeline {
 			steps {
 			    git url: 'https://github.com/jenkins-docs/simple-java-maven-app.git'
 			    withMaven {
-			      sh "mvn clean"
-			      sh "mvn install"
+			      bat "mvn clean"
+			      bat "mvn install"
 			    }
 			}
 		}
